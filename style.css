@@ -1,16 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    background-color: aliceblue;
+    background-color: rgb(248, 248, 248);
 }
 .container1{
     /* margin:50px 120px; */
     margin: 50px auto;
-    height: 60%;
-    width: 80%;
+    /* height: 60%;
+    width: 80%; */
+    width: 1000px;
+    height: 360px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding: 80px 50px;
     /* background-image: url("../assets/hero.png"); */
 }
@@ -32,12 +38,91 @@ font-weight: 700;
 .container1 button{
     border-radius: 5px;
     background: rgb(0, 106, 80);
-    color: white;
+    margin: 20px 0px;
     padding: 12px 19px;
     border: none;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
 }
 .container1 button:hover{
     background: rgb(3, 134, 101);
 
+}
+
+.container2{
+    margin: auto;
+    width: 1100px;
+    height: 360px;
+    /* background: rgb(0, 246, 131); */
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    height: 250px;
+    width: 33%;
+    /* background-color: blue;
+    border: 2px solid black; */
+    border-radius: 13px;
+    padding: 30px;
+}
+.container2 h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+/* padding-bottom: 15px; */
+}
+.container2 p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+height: 50px;
+font-weight: 400;
+margin: 20px 0px;
+}
+.box1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.box2{
+    background: rgb(198, 228, 214);
+}
+.box3{
+    background: rgb(247, 235, 207);
+}
+.container2 img{
+    margin-bottom: 10px;
+}
+.container2 button{
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container2 .box1 button{
+    background: rgb(84, 144, 245)
+}
+.container2 .box1 button:hover{
+    background: rgb(31, 109, 245)
+}
+.container2 .box2 button{
+    background: rgb(9, 161, 92);
+}
+.container2 .box2 button:hover{
+    background: rgb(0, 136, 75);
+}
+.container2 .box3 button{
+    background: rgb(255, 194, 57);
+}
+.container2 .box3 button:hover{
+    background: rgb(244, 173, 7);
 }

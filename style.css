@@ -81,7 +81,6 @@ margin: 20px 0px;
     background: rgba(84, 144, 245, 0.2);
 }
 .box1:hover{
-    background: rgba(84, 144, 245, 0.2);
     box-shadow: 5px 5px 8px rgba(2, 27, 70, 0.2);
 }
 .box2{

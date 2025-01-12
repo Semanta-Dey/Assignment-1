@@ -120,25 +120,63 @@ margin: 20px 0px;
 }
 .container3{
     margin: 30px auto;
+    width: 1057px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 15px 24px 48px 24px;
+}
+.container3 img{
+    position: absolute;
+}
+.container3 p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 2px 5px 0px;
+}
+.container3 h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.container3 h5{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+
+
+
+
+
+.container4{
+    margin: 30px auto;
     width: 1100px;
     height: 660px;
     display: flex;
     flex-direction: column;
 }
-.container3 h1{
+.container4 h1{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 35px;
     font-weight: 700;
     padding-bottom: 15px;
 }
-.container3 p{
+.container4 p{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
 }
-.container3 .news1{
+.container4 .news1{
     border-radius: 9px;
     margin: 20px auto;
     background: rgb(255, 255, 255);
@@ -148,7 +186,7 @@ margin: 20px 0px;
     display: flex;
     gap: 20px;
 }
-.container3 img{
+.container4 img{
     border-radius: 15px !important;
     height: 250px;
     display: block;
@@ -157,20 +195,20 @@ margin: 20px 0px;
 .alzazeera img{
     height: 30px;
 }
-.container3 time{
+.container4 time{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
 }
-.container3 p{
+.container4 p{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
 }
-.container3 button{
+.container4 button{
     padding: 8px 15px;
     border-radius: 5px;
     background: rgb(0, 106, 80);
@@ -179,11 +217,11 @@ margin: 20px 0px;
     margin-top: 34px;
     cursor: pointer;
 }
-.container3 button:hover{
+.container4 button:hover{
     background: rgb(6, 190, 144);
 
 }
-.container3 .news2{
+.container4 .news2{
     border-radius: 9px;
     margin: 10px auto;
     background: rgb(255, 255, 255);
@@ -193,11 +231,11 @@ margin: 20px 0px;
     display: flex;
     gap: 20px;
 }
-.container4{
+.container5{
     width: 1100px;
     height: 660px;
 }
-.container4 h1{
+.container5 h1{
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 35px;
@@ -205,7 +243,7 @@ margin: 20px 0px;
     text-align: center;
     padding-bottom: 5px;
 }
-.container4 p{
+.container5 p{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -243,7 +281,7 @@ margin: 20px 0px;
 .donate2:hover{
     background: rgb(26, 253, 147);
 }
-.container4 input{
+.container5 input{
     text-align: center;
     padding: 15px 250px;
     margin: 0px 210px;
@@ -254,38 +292,6 @@ margin: 20px 0px;
 .inpt{
    text-align: center;
 }
-.container4 button{
+.container5 button{
     padding: 10px 20px;
-}
-.container5{
-    margin: 30px auto;
-    width: 1057px;
-    height: 140px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 12px;
-    padding: 15px 24px 48px 24px;
-}
-.container5 img{
-    position: absolute;
-}
-.container5 p{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 24px 2px 5px 0px;
-}
-.container5 h1{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 8px;
-}
-.container5 h5{
-    color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    padding-top: 3px;
 }

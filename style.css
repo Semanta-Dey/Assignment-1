@@ -151,7 +151,7 @@ margin: 20px 0px;
     margin: 20px auto;
     background: rgb(255, 255, 255);
     padding: 30px;
-    width: 1021px;
+    width: 1040px;
     height: 250px;
     display: flex;
     gap: 20px;
@@ -185,6 +185,7 @@ margin: 20px 0px;
     border: none;
     color: white;
     margin-top: 34px;
+    cursor: pointer;
 }
 .container3 button:hover{
     background: rgb(6, 190, 144);
@@ -192,11 +193,85 @@ margin: 20px 0px;
 }
 .container3 .news2{
     border-radius: 9px;
-    margin: 20px auto;
+    margin: 10px auto;
     background: rgb(255, 255, 255);
     padding: 30px;
-    width: 1021px;
+    width: 1040px;
     height: 250px;
     display: flex;
     gap: 20px;
+}
+.container4{
+    /* margin: 30px auto; */
+    width: 1100px;
+    height: 660px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background: rgb(0, 246, 131);  */
+}
+.container4 h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.container4 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 20px;
+}
+.donation{
+    display: flex;
+    padding: 20px 110px;
+    gap: 20px;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.btn{
+    width: 150px;
+    height: 70px;
+    border-radius: 9px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(26, 253, 147);
+}
+.donate2{
+    background: rgb(198, 228, 214);
+}
+.donate2:hover{
+    background: rgb(26, 253, 147);
+}
+.container4 input{
+    text-align: center;
+    padding: 15px 250px;
+    margin: 0px 210px;
+    background: rgb(255, 255, 255);
+    display: block;
+    border: none;
+}
+/* .inpt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.inpt{
+   text-align: center;
+}
+.container4 button{
+    padding: 10px 20px;
 }
